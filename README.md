@@ -40,26 +40,14 @@ A simple and lightweight color picker and analyzer built with Python using the `
     python PixieClone.py
     ```
 
-## Dependencies
-
-- `tkinter`: For building the user interface.
-- `pyautogui`: To capture the screen position.
-- `PIL` (Pillow): To capture and manipulate images.
-- `pyperclip`: To copy the HEX color code to the clipboard.
-- `colorsys`: For HSV conversion.
-
-You can install the dependencies with:
-```bash
-pip install pyautogui Pillow pyperclip
-
 ## How to Use
 
 1. Launch the application.
 2. Hover over any part of your screen to automatically detect the color.
 3. Use the hotkeys for quick actions:
-   - Copy the HEX value with `Ctrl+Alt+C`.
-   - Use the color mixer with `Ctrl+Alt+X` to pick a new color.
-   - Open the magnifier with `Ctrl+Alt+Z` for precise color selection.
+   - **Copy the HEX value** with `Ctrl+Alt+C`.
+   - **Use the color mixer** with `Ctrl+Alt+X` to pick a new color.
+   - **Open the magnifier** with `Ctrl+Alt+Z` for precise color selection.
 4. The application will continuously update the color information displayed.
 
 ## Contributing
